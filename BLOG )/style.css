@@ -1,29 +1,37 @@
 /*FONTES*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rammetto+One&display=swap');
+
 /*nome: font-family: "Rammetto One", sans-serif;*/
 /*nome: font-family: "Comic Neue", cursive;*/
 /*/FONTES*/
 /*TODO O SITE*/
-*
-{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body
-{
+
+body {
     background-image: url("imagens/Sugar Cane.png");
-}
-/*/TODO O SITE*/
-/*BODY - TITULO E TEXTO INTRODUTÓRIO*/
-header
-{
-    width: 10vw;
-    height: 100vh;
+    display: flex;
 }
 
-header a
-{
+/*/TODO O SITE*/
+/*BODY - Header*/
+section {
+    align-items: center;
+}
+header {
+    width: 10vw;
+    height: 100vh;
+    position: sticky;
+    background-color: darkblue;
+    margin-right: 10vw;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, darkblue, black) 1;
+}
+
+header a {
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -31,10 +39,9 @@ header a
     padding-top: 5%;
     font-size: 25px;
     font-family: "Comic Neue", cursive;
-} 
+}
 
-header h1
-{
+header h1 {
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -43,9 +50,18 @@ header h1
     font-size: 25px;
     font-family: "Rammetto One", sans-serif;
 }
-header:hover
-{
-    position: sticky;
-    background-color:  rgb(167, 17, 17);
-    transition: 0.5s;
+
+
+/*/BODY - Header*/
+/*/BODY - Início do site de verdade*/
+
+#titulo {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
 }
+
+
+
+/*/BODY - Início do site de verdade*/
