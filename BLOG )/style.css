@@ -1,6 +1,11 @@
 /*FONTES*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rammetto+One&display=swap');
 
+@font-face {
+    font-family: 'Mojangles';
+    src: url(Mojang-Regular.woff2);
+}
+
 /*nome: font-family: "Rammetto One", sans-serif;*/
 /*nome: font-family: "Comic Neue", cursive;*/
 /*/FONTES*/
@@ -21,12 +26,13 @@ body {
 section {
     align-items: center;
 }
+
 header {
     width: 10vw;
     height: 100vh;
     position: sticky;
     background-color: darkblue;
-    margin-right: 10vw;
+    margin-right: 5vw;
     border: 10px solid transparent;
     border-image: linear-gradient(to bottom, darkblue, black) 1;
 }
@@ -55,13 +61,27 @@ header h1 {
 /*/BODY - Header*/
 /*/BODY - Início do site de verdade*/
 
-#titulo {
+#corpo {
     color: aliceblue;
     text-align: center;
     padding-top: 5%;
     font-size: 20px;
 }
 
+#corpo h1,
+h2 {
+    font-family: 'Mojangles';
+    font-weight: 100;
+}
+
+#corpo h3 {
+    font-family: "Comic Neue", cursive;
+}
+
+#imagem-exemplo img{
+    width: 250px;
+    height: 250px;
+}
 
 
 /*/BODY - Início do site de verdade*/
