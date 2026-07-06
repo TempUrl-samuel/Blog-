@@ -29,7 +29,7 @@ section {
 
 header {
     width: 17vw;
-    height: 105vh;
+    height: 104vh;
     position: sticky;
     background-color: darkblue;
     margin-right: 1vw;
@@ -79,10 +79,12 @@ h2 {
     padding-right: 1vw;
 }
 
-#imagem-exemplo img {
+#imagem-exemplo img{
     width: 250px;
     height: 250px;
 }
 
+/*SECTION - PIMRARY FIRES*/
 
+/*/SECTION - PIMRARY FIRES*/
 /*/BODY - Início do site de verdade*/
