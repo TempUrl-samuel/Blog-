@@ -86,7 +86,7 @@ header h1 {
 }
 
 /*SECTION - PIMRARY FIRES*/
-
+/*SCOUT*/
 #token-iscout{
     width: 250px;
     height: 250px;
@@ -115,10 +115,35 @@ header h1 {
     background-color: rgb(39, 65, 65);
 }
 
-#lovely-funny {
-    background-image: url(imagens/Tenna_funnytext_lovely.png);
-    width: 131px;
-    height: 50px;
+/*/SCOUT*/
+/*SOLDIER*/
+
+#soldier-section img{
+     width: 300px;
+    height: 245px;
+    background-image: radial-gradient(blueviolet, #0011ff72);
 }
+
+#soldier-section h3{
+    background-color: darkslategrey;
+    letter-spacing: 1.2px;
+}
+
+#soldier-section h1{
+    background-color: rgb(39, 65, 65);
+}
+
+#token-souldier{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
+#soldier-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*/SOLDIER*/
 /*/SECTION - PIMRARY FIRES*/
 /*/BODY - Início do site de verdade*/
