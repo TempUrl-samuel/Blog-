@@ -14,25 +14,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 body {
     background-image: url("imagens/Sugar Cane.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    backdrop-filter: blur(20px);
 }
 
 /*/TODO O SITE*/
 /*BODY - Header*/
-section {
-    align-items: center;
-}
+
 
 header {
     width: 10vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     background-color: darkblue;
     border: 10px solid transparent;
     border-image: linear-gradient(to bottom, darkblue, black) 1;
@@ -70,7 +69,8 @@ header h1 {
     padding-left: 10vw;
 }
 
-#corpo h1,h2 {
+#corpo h1,
+h2 {
     font-family: 'Mojangles';
     font-weight: 100;
 }
@@ -80,70 +80,71 @@ header h1 {
     padding-right: 1vw;
 }
 
-#imagem-exemplo img{
+#imagem-exemplo img {
     width: 250px;
     height: 250px;
 }
 
 /*SECTION - PIMRARY FIRES*/
 /*SCOUT*/
-#token-iscout{
+#token-iscout {
     width: 250px;
     height: 250px;
     align-items: center;
 }
 
-#scout-section{
+#scout-section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 
-#scout-section img{
+#scout-section img {
     width: 300px;
     height: 245px;
-    background-image: radial-gradient(blueviolet, #0011ff72);
+    background-image: radial-gradient(rgb(208, 159, 255), #ffffff00);
 }
 
-#scout-section h3{
+#scout-section h3 {
     background-color: darkslategrey;
     letter-spacing: 1.2px;
 }
 
-#scout-section h1{
+#scout-section h1 {
     background-color: rgb(39, 65, 65);
 }
 
 /*/SCOUT*/
 /*SOLDIER*/
 
-#soldier-section img{
-     width: 300px;
+#soldier-section img {
+    width: 300px;
     height: 245px;
-    background-image: radial-gradient(blueviolet, #0011ff72);
+    background-image: radial-gradient(rgb(208, 159, 255), #ffffff00);
 }
 
-#soldier-section h3{
+#soldier-section h3 {
     background-color: darkslategrey;
     letter-spacing: 1.2px;
 }
 
-#soldier-section h1{
+#soldier-section h1 {
     background-color: rgb(39, 65, 65);
 }
 
-#token-souldier{
+#token-souldier {
     width: 250px;
     height: 250px;
     align-items: center;
 }
 
-#soldier-section{
+#soldier-section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 /*/SOLDIER*/
 /*/SECTION - PIMRARY FIRES*/
 /*/BODY - Início do site de verdade*/
