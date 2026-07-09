@@ -73,7 +73,6 @@ header h1 {
 #corpo h1,h2 {
     font-family: 'Mojangles';
     font-weight: 100;
-    /*background-image:url("imagens/;*/
 }
 
 #corpo h3 {
@@ -88,19 +87,38 @@ header h1 {
 
 /*SECTION - PIMRARY FIRES*/
 
+#token-iscout{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
 #scout-section{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
+
 
 #scout-section img{
     width: 300px;
-    height: 250px;
+    height: 245px;
+    background-image: radial-gradient(blueviolet, #0011ff72);
 }
 
 #scout-section h3{
+    background-color: darkslategrey;
     letter-spacing: 1.2px;
-    
+}
+
+#scout-section h1{
+    background-color: rgb(39, 65, 65);
+}
+
+#lovely-funny {
+    background-image: url(imagens/Tenna_funnytext_lovely.png);
+    width: 131px;
+    height: 50px;
 }
 /*/SECTION - PIMRARY FIRES*/
 /*/BODY - Início do site de verdade*/
