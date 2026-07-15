@@ -1,0 +1,150 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rammetto+One&display=swap');
+
+@font-face {
+    font-family: 'Mojangles';
+    src: url(Mojang-Regular.woff2);
+}
+
+/*nome: font-family: "Rammetto One", sans-serif;*/
+/*nome: font-family: "Comic Neue", cursive;*/
+/*/FONTES*/
+/*TODO O SITE*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("../Imagens/Sugar Cane.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+
+/*/TODO O SITE*/
+/*BODY - Header*/
+
+
+header {
+    width: 10vw;
+    height: 100%;
+    position: fixed;
+    background-color: darkblue;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, darkblue, black) 1;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    font-size: 25px;
+    font-family: "Comic Neue", cursive;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    font-size: 25px;
+    font-family: "Rammetto One", sans-serif;
+}
+
+
+/*/BODY - Header*/
+/*/BODY - Início do site de verdade*/
+
+#corpo {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+    padding-left: 10vw;
+}
+
+#corpo h1,
+h2 {
+    font-family: 'Mojangles';
+    font-weight: 100;
+}
+
+#corpo h3 {
+    font-family: "Comic Neue", cursive;
+    padding-right: 1vw;
+}
+
+#imagem-exemplo img {
+    width: 250px;
+    height: 250px;
+}
+
+/*SECTION - PIMRARY FIRES*/
+/*SCOUT*/
+#token-iscout {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
+#scout-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#scout-section img {
+    width: 300px;
+    height: 245px;
+    background-image: radial-gradient(rgb(208, 159, 255), #ffffff00);
+}
+
+#scout-section h3 {
+    background-color: darkslategrey;
+    letter-spacing: 1.2px;
+}
+
+#scout-section h1 {
+    background-color: rgb(39, 65, 65);
+}
+
+/*/SCOUT*/
+/*SOLDIER*/
+
+#soldier-section img {
+    width: 300px;
+    height: 245px;
+    background-image: radial-gradient(rgb(208, 159, 255), #ffffff00);
+}
+
+#soldier-section h3 {
+    background-color: darkslategrey;
+    letter-spacing: 1.2px;
+}
+
+#soldier-section h1 {
+    background-color: rgb(39, 65, 65);
+}
+
+#token-souldier {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
+#soldier-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*/SOLDIER*/
+/*/SECTION - PIMRARY FIRES*/
+/*/BODY - Início do site de verdade*/
