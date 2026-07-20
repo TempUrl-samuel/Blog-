@@ -24,6 +24,10 @@ body {
     backdrop-filter: blur(20px);
 }
 
+a{
+    color: rgb(207, 233, 255);
+    text-decoration-line: none;
+}
 /*/TODO O SITE*/
 /*BODY - Header*/
 
