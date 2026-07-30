@@ -120,12 +120,15 @@ h2 {
 #Tags {
     list-style: none;
     width: 10vw;
-    height: 15vw;
+    height: auto;
     background-color: rgba(127, 255, 212, 0.662);
     display: flex;
     align-items: center;
     justify-content: center;
     border: 5px outset rgba(170, 1, 153, 0.473);
+    border-radius: 6%;
+    padding-top: 10;
+    padding-bottom: 1%;
 }
 
 #Tags li {

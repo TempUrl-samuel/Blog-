@@ -17,8 +17,9 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
+
 
 a {
     color: rgb(207, 233, 255);
