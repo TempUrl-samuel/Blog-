@@ -1,11 +1,9 @@
 function chance() {
-    var between = Math.random() * 11;
-    if(between = 10){
-    window.location.replace ("forgotten.html")
-    }
-    else{
-        window.localStorage.replace ("main.html")
+    const resultado = Math.floor(Math.random() * 1) + 1;
+    if (resultado == 10) {
+        document.location.replace("forgotten.html")
     }
 }
 
 
+//  window.alert('This site is WIP, so expect for strange things and unfinished sites around here, OK?')
