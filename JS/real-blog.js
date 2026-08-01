@@ -1,5 +1,5 @@
 function chance() {
-    const resultado = Math.floor(Math.random() * 1) + 1;
+    const resultado = Math.floor(Math.random() * 10) + 1;
     if (resultado == 10) {
         document.location.replace("forgotten.html")
     }
