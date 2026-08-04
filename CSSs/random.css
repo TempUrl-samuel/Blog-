@@ -1,0 +1,14 @@
+body{
+    background-image: url("../Imagens/littleplanet_bg-by-W.H.A.T.S.I.T");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#groa img{
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    left: 139px;
+    top: 416px;
+}
