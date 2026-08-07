@@ -1,3 +1,43 @@
+
+body {
+    background-image: url("../Imagens/littleplanet_bg-by-W.H.A.T.S.I.T");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#groa img {
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    left: 139px;
+    top: 416px;
+}
+
+#header-inutil {
+    width: 10vw;
+    height: auto;
+    background-color: darkblue;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, darkblue, black) 1;
+    margin-top: 5vw;
+    color: aliceblue;
+    text-align: center;
+}
+
+#header-inutil a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#hahaha img {
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    left: 217px;
+    top: 562px;
+}
+
 body {
     background-image: url("../Imagens/littleplanet_bg-by-W.H.A.T.S.I.T");
     background-size: cover;
