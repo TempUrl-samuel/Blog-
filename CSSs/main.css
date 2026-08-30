@@ -41,7 +41,7 @@ header {
     height: auto;
     background-color: darkblue;
     border: 10px solid transparent;
-    border-image: linear-gradient(to bottom, rgb(17, 17, 240), black) 1;
+    border-image: linear-gradient(to bottom, darkblue, black) 1;
     margin-top: 5vw;
 }
 
