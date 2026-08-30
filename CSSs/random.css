@@ -1,10 +1,46 @@
+/*BODY - Header*/
+section {
+    align-items: center;
+}
+
+header {
+    width: 10vw;
+    height: auto;
+    background-color: darkblue;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, darkblue, black) 1;
+    margin-top: 5vw;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    font-size: 25px;
+    font-family: "Comic Neue", cursive;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    font-size: 25px;
+    font-family: "Rammetto One", sans-serif;
+}
+
+/*/BODY - Header*/
 
 body {
     background-image: url("../Imagens/littleplanet_bg-by-W.H.A.T.S.I.T.png");
     background-size: cover;
     background-repeat: no-repeat;
-
 }
+
+/*Imagens, coloque aqui para funcionar a posição deles*/
 
 #groa img {
     width: 20vh;
@@ -14,22 +50,6 @@ body {
     top: 416px;
 }
 
-#header-inutil {
-    width: 10vw;
-    height: auto;
-    background-color: darkblue;
-    border: 10px solid transparent;
-    border-image: linear-gradient(to bottom, darkblue, black) 1;
-    margin-top: 5vw;
-    color: aliceblue;
-    text-align: center;
-}
-
-#header-inutil a {
-    text-decoration: none;
-    color: aliceblue;
-}
-
 #hahaha img {
     width: 20vh;
     height: 20vh;
@@ -37,3 +57,17 @@ body {
     left: 217px;
     top: 562px;
 }
+
+#hmm {
+    background-image: url("Imagens/I_wonder_what_I_want.jpg");
+    background-position: center;
+    width: 20vh;
+    height: 35vh;
+    position: relative;
+    left: 793px;
+    top: 210px; 
+}
+
+/**/
+
+

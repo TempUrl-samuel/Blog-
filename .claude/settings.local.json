@@ -5,7 +5,10 @@
       "Bash(git commit *)",
       "Bash(git push *)",
       "Bash(git fetch *)",
-      "Bash(git merge *)"
+      "Bash(git merge *)",
+      "Bash(export NEOCITIES_API_KEY=\"6868d793996d70c45fbc2e0333dddf84\")",
+      "Bash(bash \"/c/Users/Samuel/AppData/Local/Temp/claude/c--Users-Samuel-Desktop-Downloads-New-folder-Downloads-Blog--main/7b39a77b-404c-4566-a1d8-997fc93261d6/scratchpad/upload_neocities.sh\")",
+      "Bash(git mv *)"
     ]
   },
   "hooks": {

@@ -42,7 +42,7 @@ header {
     height: auto;
     background-color: darkblue;
     border: 10px solid transparent;
-    border-image: linear-gradient(to bottom, darkblue, black) 1;
+    border-image: linear-gradient(to bottom, rgb(17, 17, 240), black) 1;
     margin-top: 5vw;
 }
 
@@ -101,6 +101,14 @@ h2 {
 #imagem-exemplo img {
     width: 250px;
     height: 250px;
+}
+
+#image-minesweeper{
+background-image: url(/Imagens/Mine-Sweeper-win1.jpeg);
+background-position: ;
+background-repeat: no-repeat;
+width: auto;
+height: 118vh;
 }
 
 /*/BODY - Início do site de verdade*/
