@@ -103,13 +103,52 @@ h2 {
     height: 250px;
 }
 
-#image-minesweeper{
-background-image: url(/Imagens/Mine-Sweeper-win1.jpeg);
-background-repeat: no-repeat;
-width: auto;
-height: 118vh;
+#image-minesweeper {
+    background-image: url(/Imagens/Mine-Sweeper-win1.jpeg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 118vh;
 }
 
+/*Body/MUSIC - Musga*/
+/* para album */
+#album-cover{
+    display: flex;
+    flex-direction: row;
+    order: 0;
+}
+
+#opinion-cover{
+    display: flex;
+    flex-direction: row;
+    order: 1;
+}
+h4 {
+    font-size: 30px;
+    font-family: "Comic Neue", cursive;
+    padding-right: 1vw;
+    background-color: rgb(50, 0, 100);
+    border: dashed 10px;
+    border-style: ridge;
+    border-image: linear-gradient(to bottom, rgba(48, 0, 90, 0.81), rgb(0, 12, 77)) 1;
+}
+/* para single */
+h5 {
+    font-size: 30px;
+    font-family: "Comic Neue", cursive;
+    padding-right: 1vw;
+    background-color: rgb(95, 100, 0);
+    border: dashed 10px;
+    border-style: ridge;
+    border-image: linear-gradient(to bottom, rgb(90, 86, 0), rgb(59, 0, 77)) 1;
+}
+
+.Musga-Cover {
+    width: 30vh;
+    height: 30vh;
+}
+
+/*/Body/MUSIC - Musga*/
 /*/BODY - Início do site de verdade*/
 /*Extras*/
 #Extras {
