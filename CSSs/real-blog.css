@@ -39,7 +39,7 @@ section {
 
 header {
     width: 10vw;
-    height: 208.5px;
+    height: max-content;
     background-color: darkblue;
     border: 10px solid transparent;
     border-image: linear-gradient(to bottom, darkblue, black) 1;
@@ -69,6 +69,9 @@ header h1 {
 /*/BODY - Header*/
 /*/BODY - Início do site de verdade*/
 
+header>ul li{
+    list-style: none;
+}
 
 #corpo {
     color: aliceblue;
@@ -93,7 +96,6 @@ h2 {
     font-family: "Comic Neue", cursive;
     padding-right: 1vw;
     background-color: darkgreen;
-    border: dashed 10px;
     border-style: ridge;
     border-image: linear-gradient(to bottom, rgba(0, 90, 0, 0.81), rgb(0, 77, 0)) 1;
 }
@@ -113,17 +115,11 @@ h2 {
 /*Body/MUSIC - Musga*/
 /* para album */
 #album-cover{
-    display: flex;
-    flex-direction: row;
-    order: 0;
+text-align: center;
 }
 
-#opinion-cover{
-    display: flex;
-    flex-direction: row;
-    order: 1;
-}
 h4 {
+    width: fit-content;
     font-size: 30px;
     font-family: "Comic Neue", cursive;
     padding-right: 1vw;
@@ -132,20 +128,16 @@ h4 {
     border-style: ridge;
     border-image: linear-gradient(to bottom, rgba(48, 0, 90, 0.81), rgb(0, 12, 77)) 1;
 }
-/* para single */
-h5 {
-    font-size: 30px;
-    font-family: "Comic Neue", cursive;
-    padding-right: 1vw;
-    background-color: rgb(95, 100, 0);
-    border: dashed 10px;
-    border-style: ridge;
-    border-image: linear-gradient(to bottom, rgb(90, 86, 0), rgb(59, 0, 77)) 1;
-}
+
 
 .Musga-Cover {
     width: 30vh;
     height: 30vh;
+        font-size: 30px;
+    font-family: "Comic Neue", cursive;
+    padding: 1vw;
+    background-color: rgb(0, 100, 73, 1);
+    border: double 10px rgb(201, 191, 12);
 }
 
 /*/Body/MUSIC - Musga*/
